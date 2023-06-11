@@ -1,0 +1,15 @@
+.container {
+    display: block;
+    background-color: white;
+    border-radius: .5rem;
+    padding: 1rem;
+    max-width: 60ch;
+    margin-inline: auto;
+    box-shadow: 0 7px 12px 1px rgba(0, 0, 0, .1);
+}
+
+.container > {
+    /* suppress link treatment on cards */
+    text-decoration: none;
+    color: inherit
+}

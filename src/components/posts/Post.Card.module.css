@@ -1,0 +1,21 @@
+.header {
+    margin-block-end: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.detailLink {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.detailLink.active {
+    text-decoration: none;
+}
+
+.detailLink:not(.active)::after {
+    content: '→';
+    margin-inline-start: .5rem;
+}

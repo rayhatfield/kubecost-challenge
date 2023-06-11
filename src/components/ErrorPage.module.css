@@ -1,0 +1,9 @@
+.container {
+    display: grid;
+    place-content: center;
+    gap: 2rem;
+    background-color: var(--brand-color-light);
+    min-height: 100vh;
+    color: var(--brand-color-dark);
+    text-align: center;
+}

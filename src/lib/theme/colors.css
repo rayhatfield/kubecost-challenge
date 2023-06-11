@@ -1,0 +1,32 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --dark-green: #023927;
+    --dark-green-hover: var(--white);
+    --lighter-dark-green: rgba(2,57,39,0.85);
+    --even-lighter-dark-green: rgba(3,77,52,0.85);
+    --light-green: #64e892;
+    --very-light-green: #95eab3;
+    --link-cta-bg: #63e892;
+    --medium-gray: #9b9b9b;
+    --gray: #f5f7f6;
+    --light-gray: var(--gray);
+    --light-gray-2: var(--gray);
+    --penny: #9c8152;
+    --dark-gray: #d9e0dd;
+    --darker-gray: rgba(81,81,81,0.4);
+    --text-gray: rgba(70,70,70,0.5);
+    --pillar-background: #b2f4c8;
+    --heading-top: #023927;
+    --subheading-top: #416a5d;
+    --shadow-gray: #d9e0dd;
+    --link-gray: #acbab6;
+
+    --brand-color-light: var(--very-light-green);
+    --brand-color-dark: var(--dark-green);
+    --header-background-color: var(--lighter-dark-green);
+    --header-text-color: var(--very-light-green);
+    --link-color: var(--lighter-dark-green);
+    --link-decoration-color: var(--dark-gray);
+}
+

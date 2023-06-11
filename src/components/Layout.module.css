@@ -1,0 +1,42 @@
+.container {
+    background-color: var(--brand-color-light);
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    position: relative;
+}
+
+.header {
+    padding-inline: 2rem;
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 3px 12px 1px rgba(0, 0, 0, .05);
+}
+
+.navLink:any-link {
+    color: currentColor;
+    display: flex;
+    gap: 0.25em;
+    text-decoration: none;
+}
+
+.navLink.home:any-link::before {
+    content: '← ';
+    width: 1em;
+    overflow: hidden;
+    transition: width 0.2s ease-in-out;
+}
+
+.navLink.home.active:any-link::before {
+    width: 0em;
+}
+
+
+.main {
+    display: grid;
+    place-content: center;
+    padding: 2rem;
+}

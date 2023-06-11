@@ -1,0 +1,9 @@
+@import './lib/theme/reset.css';
+@import './lib/theme/colors.css';
+@import './lib/theme/typography.css';
+
+a:any-link {
+    color: var(--link-color);
+    text-decoration-color: var(--link-decoration-color);
+    transition: color 0.2s ease-in-out;
+}
