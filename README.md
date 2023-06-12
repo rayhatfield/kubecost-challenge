@@ -21,3 +21,7 @@ Clicking an author's name will display a list of posts by that author.
 
 <img width="612" alt="image" src="https://github.com/rayhatfield/kubecost-challenge/assets/1164081/00d5f2ee-f890-439d-b392-5efe6f3e56e8">
 
+## Known Issues
+
+- Reloading a subpath on the live site triggers a 404 due to a missing directive to always serve index.html
+
